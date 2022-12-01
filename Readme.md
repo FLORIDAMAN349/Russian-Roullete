@@ -3,6 +3,11 @@ Hi, this is an russian roulette malware
 I do not take any responsability for damages done with this malware please use a virtual machine
 This malware is written in python
 
+How to use:
+
+Download the file
+Run it in command prompt
+
 How it works:
 
 If you feel lucky you can run the file
