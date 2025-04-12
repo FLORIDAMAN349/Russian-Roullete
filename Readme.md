@@ -1,20 +1,35 @@
-Hi, this is an russian roulette malware
+# Bluescreen Roulette (Windows Crash Trigger)
 
-I do not take any responsability for damages done with this malware please use a virtual machine
-This malware is written in python
+> A proof-of-concept Python script simulating a destructive malware scenario with a random outcome. Designed for **educational purposes** only. **Run exclusively in a virtual machine** or isolated environment.
 
-How to use:
+---
 
-Download the file
-Run it in command prompt
+## ⚠️ WARNING
 
-How it works:
+This script randomly decides whether or not to **crash** the system by triggering a blue screen of death (BSOD) on Windows. 
 
-If you feel lucky you can run the file
-It then generates a number between 1 and 6
-If it lands on 6 it will delete your system32 directory
-If it lands on 1-5 nothing will happen and the malware will stop
+- If the result is **6**, it causes a BSOD, effectively crashing the system.
+- If the result is **1–5**, nothing happens, and the script terminates harmlessly.
 
-Anyone can borrow this source code
+**Do not run on production machines**. Only run in a safe, virtualized environment.
 
-youtube: Minecraft_killer
+## 🛠️ How to Use
+
+1. Clone the repository
+2. Run the script in an isolated virtual machine:
+
+```bash
+python bluescreen_roulette.py
+```
+
+> Always run this script in a **sandboxed environment** to avoid any potential damage to your actual operating system.
+
+---
+
+## 🧑‍💻 Author
+
+**JancoNel**  
+
+---
+
+> **Disclaimer:** This code is intended for **ethical hacking**, **educational purposes**, and **red team simulations**. Misuse outside of secure, isolated environments is not the responsibility of the author.
